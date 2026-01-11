@@ -46,6 +46,11 @@
             transform: translateY(-6px);
         }
 
+        /* FOTO KEDUA AGAK KE BAWAH */
+        .gallery .card:nth-child(2) {
+            margin-top: 40px;
+        }
+
         .card img {
             width: 100%;
             display: block;
@@ -74,6 +79,13 @@
 
         .order-button:hover {
             background-color: #1ebe5d;
+        }
+
+        /* OPSIONAL: agar tetap rapi di HP */
+        @media (max-width: 600px) {
+            .gallery .card:nth-child(2) {
+                margin-top: 20px;
+            }
         }
     </style>
 </head>
